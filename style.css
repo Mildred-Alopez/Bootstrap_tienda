@@ -1,0 +1,60 @@
+html{
+    overflow-x: hidden;
+}
+.nav{
+    height:80px ;
+    width: 100%;
+
+}
+.background-nav{
+    background-color :#011638 ;
+    color: white;
+}
+.navbar-pink a{
+    color: #eb72a3;
+}
+.navbar-pink a:hover{
+    color: #ef8fb6; ;
+}
+.active-link{
+    color: white;
+    font-weight: 900;
+}
+.bg-pink{
+    background-color: #eb72a3 !important
+}
+
+ .my-animation{
+    padding: 75px 0px;
+    white-space: nowrap;
+  
+  }
+  .imagen{
+    display: inline-block;
+    animation: 20s slidein infinite linear;
+}
+.imagen img{
+    margin: 0px 15px;
+}
+  
+  @keyframes slidein {
+    from {
+        transform: translateX(0);
+      
+    }
+  
+    to {
+        transform: translateX(-100%);
+     
+    }
+  }
+  .bg-footer{
+    background-color: #011638;
+    height: 300px;
+
+  }
+  .list{
+    list-style: none;
+  }
+
+  
